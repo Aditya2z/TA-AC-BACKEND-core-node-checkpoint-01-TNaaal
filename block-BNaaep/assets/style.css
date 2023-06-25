@@ -1,0 +1,86 @@
+/* style.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set box-sizing to border-box for easier layout */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Container styles */
+.container-90 {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+/* Tagline styles */
+.tagline {
+  font-size: 18px;
+  color: #888;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Text styles */
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Flex container styles */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Profile styles */
+.profile {
+  flex-basis: 30%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile a {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.profile a:hover {
+  color: #007bff;
+}
+
+.profile img {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
